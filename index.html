@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Tic Tac Toe</title>
 
 </head>
+
 <body>
 
+<div class="box">
     <div id="board">
         <h1>Tic Tac Toe</h1>
 
         <div class="row">
-            <div class="top left"></div>
-            <div class="top middle"></div>
-            <div class="top right"></div>
+            <div class="top left cell" id="0"></div>
+            <div class="top middle cell" id="1"></div>
+            <div class="top right cell" id="2"></div>
         </div>
 
         <div class="row">
-            <div class="center left"></div>
-            <div class="center middle"></div>
-            <div class="center right"></div>
+            <div class="center left cell" id="3"></div>
+            <div class="center middle cell" id="4"></div>
+            <div class="center right cell" id="5"></div>
         </div>
 
         <div class="row">
-            <div class="bottom left"></div>
-            <div class="bottom middle"></div>
-            <div class="bottom right"></div>
+            <div class="bottom left cell" id="6"></div>
+            <div class="bottom middle cell" id="7"></div>
+            <div class="bottom right cell" id="8"></div>
         </div>
+
 
     </div>
+</div>
+    <div>
+        <button onclick={(replayGame())}>Replay</button>
+        <section id="winnerDiv"></section>
+    </div>
     
+    <script src="app.js"></script>
+
 </body>
+
 </html>
