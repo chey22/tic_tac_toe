@@ -1,51 +1,51 @@
 #board {
-    text-align: center;
+  text-align: center;
 }
 
-body{
-    text-align:center;
+body {
+  text-align: center;
 }
 
 div.row div {
-    height: 100px;
-    width: 100px;
-    float: left;
-    clear: right;
-    background-color: rgb(163, 255, 224);
+  height: 100px;
+  width: 100px;
+  float: left;
+  clear: right;
+  background-color: rgb(163, 255, 224);
 }
 
 .row {
-    margin: 0 auto;
-    width: 302px;
+  margin: 0 auto;
+  width: 302px;
 }
 
 .top {
-    border-bottom: 1px black solid;
+  border-bottom: 1px black solid;
 }
 
 .bottom {
-    border-top: 1px black solid;
+  border-top: 1px black solid;
 }
 
 .left {
-    border-right: 1px black solid;
+  border-right: 1px black solid;
 }
 
 .right {
-    border-left: 1px black solid;
+  border-left: 1px black solid;
 }
 
 h1 {
-    font-family: cursive; 
+  font-family: cursive;
 }
 
 .cell {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5.5em;
 }
-.box{
-    height: 25em;
-    width: 25em;
-    margin: 0 auto;
-    background-color: rgb(163, 255, 224);
+.box {
+  height: 25em;
+  width: 25em;
+  margin: 0 auto;
+  background-color: rgb(163, 255, 224);
 }
